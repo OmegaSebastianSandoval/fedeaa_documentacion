@@ -1,0 +1,255 @@
+[11-Mar-2019 12:38:21 America/Bogota] PHP Notice:  Undefined offset: 2 in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/Http/Routes.php on line 26
+[11-Mar-2019 12:38:21 America/Bogota] PHP Notice:  Undefined offset: 3 in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/Http/Routes.php on line 31
+[11-Mar-2019 12:38:21 America/Bogota] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'omegasol_admin'@'localhost' to database 'omegasol_fedeaa_creditos' in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/Db/Connection.php on line 26
+[11-Mar-2019 12:38:21 America/Bogota] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not connect to database' in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/Db/Connection.php:28
+Stack trace:
+#0 /home/omegasol/public_html/proyectos/fedeaacreditos/framework/Db/Connection.php(38): Db_Connection->getConnection()
+#1 /home/omegasol/public_html/proyectos/fedeaacreditos/framework/Db/Table.php(20): Db_Connection->query('SELECT * FROM i...')
+#2 /home/omegasol/public_html/proyectos/fedeaacreditos/app/modules/page/Controllers/mainController.php(17): Db_Table->getById(1)
+#3 /home/omegasol/public_html/proyectos/fedeaacreditos/framework/Controllers/Abstract.php(30): Page_mainController->init()
+#4 /home/omegasol/public_html/proyectos/fedeaacreditos/framework/App.php(28): Controllers_Abstract->__construct(Object(Http_Response), Object(Http_Requests), Object(Http_Routes))
+#5 /home/omegasol/public_html/proyectos/fedeaacreditos/framework/App.php(40): App->init()
+#6 /home/omegasol/public_html/proyectos/fedeaacreditos/public/index.php(5): App->ru in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/Db/Connection.php on line 28
+[11-Mar-2019 12:39:49 America/Bogota] PHP Notice:  Undefined offset: 2 in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/Http/Routes.php on line 26
+[11-Mar-2019 12:39:49 America/Bogota] PHP Notice:  Undefined offset: 3 in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/Http/Routes.php on line 31
+[11-Mar-2019 12:39:49 America/Bogota] PHP Notice:  Undefined index: infofooter in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/View.php on line 19
+[11-Mar-2019 12:39:49 America/Bogota] PHP Notice:  Undefined index: kt_login_id in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/Session.php on line 20
+[11-Mar-2019 12:39:49 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/omegasol/public_html/proyectos/fedeaacreditos/app/modules/page/Controllers/mainController.php on line 30
+[11-Mar-2019 12:39:49 America/Bogota] PHP Notice:  Undefined index: cedula in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/View.php(45) : eval()'d code on line 26
+[11-Mar-2019 12:39:49 America/Bogota] PHP Notice:  Undefined index: error in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/View.php(45) : eval()'d code on line 48
+[11-Mar-2019 17:27:12 America/Bogota] PHP Notice:  Undefined offset: 5 in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/Http/Routes.php on line 38
+[11-Mar-2019 17:27:12 America/Bogota] PHP Notice:  Undefined index: infofooter in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/View.php on line 19
+[11-Mar-2019 17:27:12 America/Bogota] PHP Notice:  Undefined index: kt_login_id in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/Session.php on line 20
+[11-Mar-2019 17:27:12 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/omegasol/public_html/proyectos/fedeaacreditos/app/modules/page/Controllers/mainController.php on line 30
+[11-Mar-2019 17:27:12 America/Bogota] PHP Fatal error:  Call to undefined method Page_sistemaController::paso6Action() in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/App.php on line 30
+[11-Mar-2019 17:27:28 America/Bogota] PHP Notice:  Undefined offset: 5 in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/Http/Routes.php on line 38
+[11-Mar-2019 17:27:28 America/Bogota] PHP Notice:  Undefined index: infofooter in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/View.php on line 19
+[11-Mar-2019 17:27:28 America/Bogota] PHP Notice:  Undefined index: kt_login_id in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/Session.php on line 20
+[11-Mar-2019 17:27:28 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/omegasol/public_html/proyectos/fedeaacreditos/app/modules/page/Controllers/mainController.php on line 30
+[11-Mar-2019 17:27:28 America/Bogota] PHP Fatal error:  Call to undefined method Page_sistemaController::paso6Action() in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/App.php on line 30
+[11-Mar-2019 17:27:29 America/Bogota] PHP Notice:  Undefined offset: 5 in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/Http/Routes.php on line 38
+[11-Mar-2019 17:27:29 America/Bogota] PHP Notice:  Undefined index: infofooter in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/View.php on line 19
+[11-Mar-2019 17:27:29 America/Bogota] PHP Notice:  Undefined index: kt_login_id in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/Session.php on line 20
+[11-Mar-2019 17:27:29 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/omegasol/public_html/proyectos/fedeaacreditos/app/modules/page/Controllers/mainController.php on line 30
+[11-Mar-2019 17:27:29 America/Bogota] PHP Fatal error:  Call to undefined method Page_sistemaController::paso6Action() in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/App.php on line 30
+[11-Mar-2019 17:52:24 America/Bogota] PHP Notice:  Undefined offset: 5 in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/Http/Routes.php on line 38
+[11-Mar-2019 17:52:24 America/Bogota] PHP Notice:  Undefined index: infofooter in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/View.php on line 19
+[11-Mar-2019 17:52:24 America/Bogota] PHP Notice:  Undefined index: kt_login_id in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/Session.php on line 20
+[11-Mar-2019 17:52:24 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/omegasol/public_html/proyectos/fedeaacreditos/app/modules/page/Controllers/mainController.php on line 30
+[11-Mar-2019 17:52:24 America/Bogota] PHP Fatal error:  Call to undefined method Page_sistemaController::paso6Action() in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/App.php on line 30
+[11-Mar-2019 17:52:56 America/Bogota] PHP Notice:  Undefined offset: 5 in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/Http/Routes.php on line 38
+[11-Mar-2019 17:52:56 America/Bogota] PHP Notice:  Undefined index: infofooter in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/View.php on line 19
+[11-Mar-2019 17:52:56 America/Bogota] PHP Notice:  Undefined index: kt_login_id in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/Session.php on line 20
+[11-Mar-2019 17:52:56 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/omegasol/public_html/proyectos/fedeaacreditos/app/modules/page/Controllers/mainController.php on line 30
+[11-Mar-2019 17:52:56 America/Bogota] PHP Fatal error:  Call to undefined method Page_sistemaController::paso6Action() in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/App.php on line 30
+[11-Mar-2019 17:53:11 America/Bogota] PHP Notice:  Undefined offset: 5 in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/Http/Routes.php on line 38
+[11-Mar-2019 17:53:11 America/Bogota] PHP Notice:  Undefined index: infofooter in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/View.php on line 19
+[11-Mar-2019 17:53:11 America/Bogota] PHP Notice:  Undefined index: kt_login_id in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/Session.php on line 20
+[11-Mar-2019 17:53:11 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/omegasol/public_html/proyectos/fedeaacreditos/app/modules/page/Controllers/mainController.php on line 30
+[11-Mar-2019 17:53:11 America/Bogota] PHP Fatal error:  Call to undefined method Page_sistemaController::paso6Action() in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/App.php on line 30
+[11-Mar-2019 17:53:13 America/Bogota] PHP Notice:  Undefined offset: 5 in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/Http/Routes.php on line 38
+[11-Mar-2019 17:53:13 America/Bogota] PHP Notice:  Undefined index: infofooter in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/View.php on line 19
+[11-Mar-2019 17:53:13 America/Bogota] PHP Notice:  Undefined index: kt_login_id in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/Session.php on line 20
+[11-Mar-2019 17:53:13 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/omegasol/public_html/proyectos/fedeaacreditos/app/modules/page/Controllers/mainController.php on line 30
+[11-Mar-2019 17:53:13 America/Bogota] PHP Fatal error:  Call to undefined method Page_sistemaController::paso6Action() in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/App.php on line 30
+[11-Mar-2019 17:53:18 America/Bogota] PHP Notice:  Undefined offset: 5 in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/Http/Routes.php on line 38
+[11-Mar-2019 17:53:18 America/Bogota] PHP Notice:  Undefined index: infofooter in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/View.php on line 19
+[11-Mar-2019 17:53:18 America/Bogota] PHP Notice:  Undefined index: kt_login_id in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/Session.php on line 20
+[11-Mar-2019 17:53:18 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/omegasol/public_html/proyectos/fedeaacreditos/app/modules/page/Controllers/mainController.php on line 30
+[11-Mar-2019 17:53:18 America/Bogota] PHP Fatal error:  Call to undefined method Page_sistemaController::paso6Action() in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/App.php on line 30
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Undefined offset: 5 in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/Http/Routes.php on line 38
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Undefined index: infofooter in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/View.php on line 19
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Undefined index: kt_login_id in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/Session.php on line 20
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/omegasol/public_html/proyectos/fedeaacreditos/app/modules/page/Controllers/mainController.php on line 30
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Undefined index: mod in /home/omegasol/public_html/proyectos/fedeaacreditos/app/modules/page/Views/partials/botonera.php on line 158
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Undefined variable: getlinea in /home/omegasol/public_html/proyectos/fedeaacreditos/app/modules/page/Views/partials/botonera.php on line 297
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Undefined variable: getlinea in /home/omegasol/public_html/proyectos/fedeaacreditos/app/modules/page/Views/partials/botonera.php on line 297
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Undefined variable: getlinea in /home/omegasol/public_html/proyectos/fedeaacreditos/app/modules/page/Views/partials/botonera.php on line 297
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Undefined variable: getlinea in /home/omegasol/public_html/proyectos/fedeaacreditos/app/modules/page/Views/partials/botonera.php on line 297
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Undefined variable: getlinea in /home/omegasol/public_html/proyectos/fedeaacreditos/app/modules/page/Views/partials/botonera.php on line 297
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Undefined variable: getlinea in /home/omegasol/public_html/proyectos/fedeaacreditos/app/modules/page/Views/partials/botonera.php on line 297
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Undefined offset: 0 in /home/omegasol/public_html/proyectos/fedeaacreditos/app/modules/page/Controllers/sistemaController.php on line 997
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/omegasol/public_html/proyectos/fedeaacreditos/app/modules/page/Controllers/sistemaController.php on line 998
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Undefined index: numero in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/View.php on line 19
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Undefined index: mod in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/View.php(45) : eval()'d code on line 26
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/View.php(45) : eval()'d code on line 27
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/View.php(45) : eval()'d code on line 27
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/View.php(45) : eval()'d code on line 28
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Undefined index: mod in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/View.php(45) : eval()'d code on line 36
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/View.php(45) : eval()'d code on line 37
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/View.php(45) : eval()'d code on line 37
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/View.php(45) : eval()'d code on line 38
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Undefined index: mod in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/View.php(45) : eval()'d code on line 66
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/View.php(45) : eval()'d code on line 67
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/View.php(45) : eval()'d code on line 67
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/View.php(45) : eval()'d code on line 68
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Undefined index: mod in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/View.php(45) : eval()'d code on line 76
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/View.php(45) : eval()'d code on line 77
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/View.php(45) : eval()'d code on line 77
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/View.php(45) : eval()'d code on line 78
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Undefined index: user in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/View.php on line 19
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/View.php(45) : eval()'d code on line 332
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Undefined index: mod in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/View.php(45) : eval()'d code on line 334
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Undefined index: mod in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/View.php(45) : eval()'d code on line 343
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Undefined index: mod in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/View.php(45) : eval()'d code on line 349
+[11-Mar-2019 17:54:26 America/Bogota] PHP Notice:  Undefined index: mod in /home/omegasol/public_html/proyectos/fedeaacreditos/framework/View.php(45) : eval()'d code on line 364
+[26-Jun-2019 12:20:01 America/Bogota] PHP Notice:  Undefined offset: 3 in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Http/Routes.php on line 31
+[26-Jun-2019 12:20:01 America/Bogota] PHP Notice:  Undefined index: pages_documentos in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Session.php on line 20
+[26-Jun-2019 12:20:01 America/Bogota] PHP Parse error:  syntax error, unexpected 'post' (T_STRING) in /home/omegasol/public_html/proyectos/fedea_documentos/framework/View.php(45) : eval()'d code on line 17
+[26-Jun-2019 12:20:48 America/Bogota] PHP Notice:  Undefined offset: 3 in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Http/Routes.php on line 31
+[26-Jun-2019 12:20:48 America/Bogota] PHP Notice:  Undefined index: pages_documentos in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Session.php on line 20
+[08-Jul-2019 10:10:53 America/Bogota] PHP Notice:  Undefined offset: 4 in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Http/Routes.php on line 38
+[08-Jul-2019 10:10:53 America/Bogota] PHP Notice:  Undefined index: pages_documentos in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Session.php on line 20
+[08-Jul-2019 10:10:53 America/Bogota] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Db/Connection.php on line 26
+[08-Jul-2019 10:10:53 America/Bogota] PHP Fatal error:  Uncaught Exception: Could not connect to database in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Db/Connection.php:28
+Stack trace:
+#0 /home/omegasol/public_html/proyectos/fedea_documentos/framework/Db/Connection.php(37): Db_Connection->getConnection()
+#1 /home/omegasol/public_html/proyectos/fedea_documentos/framework/Db/Table.php(20): Db_Connection->query('SELECT * FROM i...')
+#2 /home/omegasol/public_html/proyectos/fedea_documentos/app/modules/page/Controllers/mainController.php(17): Db_Table->getById(1)
+#3 /home/omegasol/public_html/proyectos/fedea_documentos/app/modules/page/Controllers/documentosController.php(65): Page_mainController->init()
+#4 /home/omegasol/public_html/proyectos/fedea_documentos/framework/Controllers/Abstract.php(30): Page_documentosController->init()
+#5 /home/omegasol/public_html/proyectos/fedea_documentos/framework/App.php(28): Controllers_Abstract->__construct(Object(Http_Response), Object(Http_Requests), Object(Http_Routes))
+#6 /home/omegasol/public_html/proyect in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Db/Connection.php on line 28
+[08-Jul-2019 10:13:27 America/Bogota] PHP Notice:  Undefined offset: 4 in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Http/Routes.php on line 38
+[08-Jul-2019 10:13:27 America/Bogota] PHP Notice:  Undefined index: pages_documentos in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Session.php on line 20
+[08-Jul-2019 10:13:27 America/Bogota] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Db/Connection.php on line 26
+[08-Jul-2019 10:13:27 America/Bogota] PHP Fatal error:  Uncaught Exception: Could not connect to database in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Db/Connection.php:28
+Stack trace:
+#0 /home/omegasol/public_html/proyectos/fedea_documentos/framework/Db/Connection.php(37): Db_Connection->getConnection()
+#1 /home/omegasol/public_html/proyectos/fedea_documentos/framework/Db/Table.php(20): Db_Connection->query('SELECT * FROM i...')
+#2 /home/omegasol/public_html/proyectos/fedea_documentos/app/modules/page/Controllers/mainController.php(17): Db_Table->getById(1)
+#3 /home/omegasol/public_html/proyectos/fedea_documentos/app/modules/page/Controllers/documentosController.php(65): Page_mainController->init()
+#4 /home/omegasol/public_html/proyectos/fedea_documentos/framework/Controllers/Abstract.php(30): Page_documentosController->init()
+#5 /home/omegasol/public_html/proyectos/fedea_documentos/framework/App.php(28): Controllers_Abstract->__construct(Object(Http_Response), Object(Http_Requests), Object(Http_Routes))
+#6 /home/omegasol/public_html/proyect in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Db/Connection.php on line 28
+[08-Jul-2019 10:17:50 America/Bogota] PHP Notice:  Undefined offset: 4 in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Http/Routes.php on line 38
+[08-Jul-2019 10:17:50 America/Bogota] PHP Notice:  Undefined index: pages_documentos in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Session.php on line 20
+[08-Jul-2019 10:17:50 America/Bogota] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'omegasol_admin'@'localhost' to database 'omegasol_fedeaa_documentos' in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Db/Connection.php on line 26
+[08-Jul-2019 10:17:50 America/Bogota] PHP Fatal error:  Uncaught Exception: Could not connect to database in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Db/Connection.php:28
+Stack trace:
+#0 /home/omegasol/public_html/proyectos/fedea_documentos/framework/Db/Connection.php(37): Db_Connection->getConnection()
+#1 /home/omegasol/public_html/proyectos/fedea_documentos/framework/Db/Table.php(20): Db_Connection->query('SELECT * FROM i...')
+#2 /home/omegasol/public_html/proyectos/fedea_documentos/app/modules/page/Controllers/mainController.php(17): Db_Table->getById(1)
+#3 /home/omegasol/public_html/proyectos/fedea_documentos/app/modules/page/Controllers/documentosController.php(65): Page_mainController->init()
+#4 /home/omegasol/public_html/proyectos/fedea_documentos/framework/Controllers/Abstract.php(30): Page_documentosController->init()
+#5 /home/omegasol/public_html/proyectos/fedea_documentos/framework/App.php(28): Controllers_Abstract->__construct(Object(Http_Response), Object(Http_Requests), Object(Http_Routes))
+#6 /home/omegasol/public_html/proyect in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Db/Connection.php on line 28
+[08-Jul-2019 10:19:17 America/Bogota] PHP Notice:  Undefined offset: 4 in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Http/Routes.php on line 38
+[08-Jul-2019 10:19:17 America/Bogota] PHP Notice:  Undefined index: pages_documentos in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Session.php on line 20
+[08-Jul-2019 10:19:17 America/Bogota] PHP Notice:  Undefined index: parametersfilterdocumentos in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Session.php on line 20
+[08-Jul-2019 10:19:17 America/Bogota] PHP Notice:  Undefined index: parametersfilterdocumentos in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Session.php on line 20
+[08-Jul-2019 10:19:17 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method Page_documentosController::validarPermisos() in /home/omegasol/public_html/proyectos/fedea_documentos/app/modules/page/Controllers/documentosController.php:120
+Stack trace:
+#0 /home/omegasol/public_html/proyectos/fedea_documentos/framework/App.php(30): Page_documentosController->indexAction()
+#1 /home/omegasol/public_html/proyectos/fedea_documentos/framework/App.php(40): App->init()
+#2 /home/omegasol/public_html/proyectos/fedea_documentos/public/index.php(5): App->run()
+#3 {main}
+  thrown in /home/omegasol/public_html/proyectos/fedea_documentos/app/modules/page/Controllers/documentosController.php on line 120
+[08-Jul-2019 10:22:10 America/Bogota] PHP Notice:  Undefined offset: 4 in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Http/Routes.php on line 38
+[08-Jul-2019 10:22:10 America/Bogota] PHP Notice:  Undefined index: pages_documentos in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Session.php on line 20
+[08-Jul-2019 10:22:10 America/Bogota] PHP Notice:  Undefined index: parametersfilterdocumentos in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Session.php on line 20
+[08-Jul-2019 10:22:10 America/Bogota] PHP Notice:  Undefined index: parametersfilterdocumentos in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Session.php on line 20
+[08-Jul-2019 10:22:25 America/Bogota] PHP Notice:  Undefined offset: 4 in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Http/Routes.php on line 38
+[08-Jul-2019 10:22:25 America/Bogota] PHP Notice:  Undefined index: pages_documentos in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Session.php on line 20
+[08-Jul-2019 10:22:25 America/Bogota] PHP Notice:  Undefined index: parametersfilterdocumentos in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Session.php on line 20
+[08-Jul-2019 10:22:25 America/Bogota] PHP Notice:  Undefined index: parametersfilterdocumentos in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Session.php on line 20
+[22-Jul-2019 14:22:45 America/Bogota] PHP Notice:  Undefined offset: 3 in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Http/Routes.php on line 31
+[22-Jul-2019 14:22:45 America/Bogota] PHP Notice:  Undefined index: kt_login_name in /home/omegasol/public_html/proyectos/fedea_documentos/app/modules/page/Views/partials/header.php on line 12
+[22-Jul-2019 14:22:45 America/Bogota] PHP Notice:  Undefined index: kt_login_id in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Session.php on line 20
+[22-Jul-2019 14:22:45 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/omegasol/public_html/proyectos/fedea_documentos/app/modules/page/Controllers/mainController.php on line 30
+[22-Jul-2019 14:22:45 America/Bogota] PHP Notice:  Undefined index: cedula in /home/omegasol/public_html/proyectos/fedea_documentos/framework/View.php(45) : eval()'d code on line 28
+[22-Jul-2019 14:22:45 America/Bogota] PHP Notice:  Undefined index: error in /home/omegasol/public_html/proyectos/fedea_documentos/framework/View.php(45) : eval()'d code on line 50
+[05-Aug-2019 16:26:20 America/Bogota] PHP Notice:  Undefined offset: 4 in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Http/Routes.php on line 38
+[05-Aug-2019 16:26:20 America/Bogota] PHP Notice:  Undefined index: pages_archivos in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Session.php on line 20
+[05-Aug-2019 16:26:20 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'PHPExcel_IOFactory' not found in /home/omegasol/public_html/proyectos/fedea_documentos/app/modules/page/Controllers/archivosController.php:239
+Stack trace:
+#0 /home/omegasol/public_html/proyectos/fedea_documentos/framework/App.php(30): Page_archivosController->cargaAction()
+#1 /home/omegasol/public_html/proyectos/fedea_documentos/framework/App.php(40): App->init()
+#2 /home/omegasol/public_html/proyectos/fedea_documentos/public/index.php(5): App->run()
+#3 {main}
+  thrown in /home/omegasol/public_html/proyectos/fedea_documentos/app/modules/page/Controllers/archivosController.php on line 239
+[05-Aug-2019 16:30:58 America/Bogota] PHP Notice:  Undefined offset: 4 in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Http/Routes.php on line 38
+[05-Aug-2019 16:30:58 America/Bogota] PHP Notice:  Undefined index: pages_archivos in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Session.php on line 20
+[05-Aug-2019 16:30:58 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'PHPExcel_IOFactory' not found in /home/omegasol/public_html/proyectos/fedea_documentos/app/modules/page/Controllers/archivosController.php:239
+Stack trace:
+#0 /home/omegasol/public_html/proyectos/fedea_documentos/framework/App.php(30): Page_archivosController->cargaAction()
+#1 /home/omegasol/public_html/proyectos/fedea_documentos/framework/App.php(40): App->init()
+#2 /home/omegasol/public_html/proyectos/fedea_documentos/public/index.php(5): App->run()
+#3 {main}
+  thrown in /home/omegasol/public_html/proyectos/fedea_documentos/app/modules/page/Controllers/archivosController.php on line 239
+[05-Aug-2019 16:32:10 America/Bogota] PHP Notice:  Undefined offset: 4 in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Http/Routes.php on line 38
+[05-Aug-2019 16:32:10 America/Bogota] PHP Notice:  Undefined index: pages_archivos in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Session.php on line 20
+[05-Aug-2019 16:32:10 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'PHPExcel_IOFactory' not found in /home/omegasol/public_html/proyectos/fedea_documentos/app/modules/page/Controllers/archivosController.php:239
+Stack trace:
+#0 /home/omegasol/public_html/proyectos/fedea_documentos/framework/App.php(30): Page_archivosController->cargaAction()
+#1 /home/omegasol/public_html/proyectos/fedea_documentos/framework/App.php(40): App->init()
+#2 /home/omegasol/public_html/proyectos/fedea_documentos/public/index.php(5): App->run()
+#3 {main}
+  thrown in /home/omegasol/public_html/proyectos/fedea_documentos/app/modules/page/Controllers/archivosController.php on line 239
+[05-Aug-2019 16:32:29 America/Bogota] PHP Warning:  require_once(../vendor/phpoffice/phpexcel/Classes/PHPExcel.php): failed to open stream: No such file or directory in /home/omegasol/public_html/proyectos/fedea_documentos/app/bootstrap.php on line 74
+[05-Aug-2019 16:32:29 America/Bogota] PHP Fatal error:  require_once(): Failed opening required '../vendor/phpoffice/phpexcel/Classes/PHPExcel.php' (include_path='.:/opt/alt/php70/usr/share/pear:/home/omegasol/public_html/proyectos/fedea_documentos/app/../framework/') in /home/omegasol/public_html/proyectos/fedea_documentos/app/bootstrap.php on line 74
+[05-Aug-2019 16:32:57 America/Bogota] PHP Warning:  require_once(../vendor/phpoffice/phpexcel/Classes/PHPExcel.php): failed to open stream: No such file or directory in /home/omegasol/public_html/proyectos/fedea_documentos/app/bootstrap.php on line 74
+[05-Aug-2019 16:32:57 America/Bogota] PHP Fatal error:  require_once(): Failed opening required '../vendor/phpoffice/phpexcel/Classes/PHPExcel.php' (include_path='.:/opt/alt/php70/usr/share/pear:/home/omegasol/public_html/proyectos/fedea_documentos/app/../framework/') in /home/omegasol/public_html/proyectos/fedea_documentos/app/bootstrap.php on line 74
+[05-Aug-2019 16:37:17 America/Bogota] PHP Notice:  Undefined offset: 4 in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Http/Routes.php on line 38
+[05-Aug-2019 16:37:17 America/Bogota] PHP Notice:  Undefined index: pages_archivos in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Session.php on line 20
+[05-Aug-2019 16:37:17 America/Bogota] PHP Notice:  Undefined index: content in /home/omegasol/public_html/proyectos/fedea_documentos/framework/View.php on line 19
+[05-Aug-2019 16:37:17 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/omegasol/public_html/proyectos/fedea_documentos/framework/View.php(45) : eval()'d code on line 7
+[05-Aug-2019 16:37:17 America/Bogota] PHP Notice:  Undefined index: content in /home/omegasol/public_html/proyectos/fedea_documentos/framework/View.php on line 19
+[05-Aug-2019 16:37:17 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/omegasol/public_html/proyectos/fedea_documentos/framework/View.php(45) : eval()'d code on line 13
+[05-Aug-2019 16:37:17 America/Bogota] PHP Notice:  Undefined index: content in /home/omegasol/public_html/proyectos/fedea_documentos/framework/View.php on line 19
+[05-Aug-2019 16:37:17 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/omegasol/public_html/proyectos/fedea_documentos/framework/View.php(45) : eval()'d code on line 16
+[05-Aug-2019 16:37:50 America/Bogota] PHP Notice:  Undefined offset: 4 in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Http/Routes.php on line 38
+[05-Aug-2019 16:37:50 America/Bogota] PHP Notice:  Undefined index: pages_archivos in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Session.php on line 20
+[05-Aug-2019 16:37:50 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/omegasol/public_html/proyectos/fedea_documentos/vendor/phpoffice/phpexcel/Classes/PHPExcel/Reader/Excel2007.php:85
+Stack trace:
+#0 /home/omegasol/public_html/proyectos/fedea_documentos/vendor/phpoffice/phpexcel/Classes/PHPExcel/IOFactory.php(269): PHPExcel_Reader_Excel2007->canRead('/home/omegasol/...')
+#1 /home/omegasol/public_html/proyectos/fedea_documentos/vendor/phpoffice/phpexcel/Classes/PHPExcel/IOFactory.php(191): PHPExcel_IOFactory::createReaderForFile('/home/omegasol/...')
+#2 /home/omegasol/public_html/proyectos/fedea_documentos/app/modules/page/Controllers/archivosController.php(239): PHPExcel_IOFactory::load('/home/omegasol/...')
+#3 /home/omegasol/public_html/proyectos/fedea_documentos/framework/App.php(30): Page_archivosController->cargaAction()
+#4 /home/omegasol/public_html/proyectos/fedea_documentos/framework/App.php(40): App->init()
+#5 /home/omegasol/public_html/proyectos/fedea_documentos/public/index.php(5): App->run()
+#6 {main}
+  thrown in /home/omegasol/public_html/proyectos/fedea_documentos/vendor/phpoffice/phpexcel/Classes/PHPExcel/Reader/Excel2007.php on line 85
+[05-Aug-2019 16:42:23 America/Bogota] PHP Notice:  Undefined offset: 4 in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Http/Routes.php on line 38
+[05-Aug-2019 16:42:23 America/Bogota] PHP Notice:  Undefined index: csrf in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Session.php on line 20
+[05-Aug-2019 16:42:23 America/Bogota] PHP Notice:  Undefined index: pages_archivos in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Session.php on line 20
+[05-Aug-2019 16:42:23 America/Bogota] PHP Notice:  Undefined index: kt_login_name in /home/omegasol/public_html/proyectos/fedea_documentos/app/modules/page/Views/partials/header.php on line 12
+[05-Aug-2019 16:42:23 America/Bogota] PHP Notice:  Undefined index: kt_login_id in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Session.php on line 20
+[05-Aug-2019 16:42:23 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/omegasol/public_html/proyectos/fedea_documentos/app/modules/page/Controllers/mainController.php on line 30
+[05-Aug-2019 16:42:23 America/Bogota] PHP Notice:  Undefined index: kt_login_level in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Session.php on line 20
+[05-Aug-2019 16:47:16 America/Bogota] PHP Notice:  Undefined offset: 4 in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Http/Routes.php on line 38
+[05-Aug-2019 16:47:16 America/Bogota] PHP Notice:  Undefined index: pages_archivos in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Session.php on line 20
+[05-Aug-2019 16:47:16 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/omegasol/public_html/proyectos/fedea_documentos/vendor/phpoffice/phpexcel/Classes/PHPExcel/Reader/Excel2007.php:85
+Stack trace:
+#0 /home/omegasol/public_html/proyectos/fedea_documentos/vendor/phpoffice/phpexcel/Classes/PHPExcel/IOFactory.php(269): PHPExcel_Reader_Excel2007->canRead('/home/omegasol/...')
+#1 /home/omegasol/public_html/proyectos/fedea_documentos/vendor/phpoffice/phpexcel/Classes/PHPExcel/IOFactory.php(191): PHPExcel_IOFactory::createReaderForFile('/home/omegasol/...')
+#2 /home/omegasol/public_html/proyectos/fedea_documentos/app/modules/page/Controllers/archivosController.php(239): PHPExcel_IOFactory::load('/home/omegasol/...')
+#3 /home/omegasol/public_html/proyectos/fedea_documentos/framework/App.php(30): Page_archivosController->cargaAction()
+#4 /home/omegasol/public_html/proyectos/fedea_documentos/framework/App.php(40): App->init()
+#5 /home/omegasol/public_html/proyectos/fedea_documentos/public/index.php(5): App->run()
+#6 {main}
+  thrown in /home/omegasol/public_html/proyectos/fedea_documentos/vendor/phpoffice/phpexcel/Classes/PHPExcel/Reader/Excel2007.php on line 85
+[05-Aug-2019 16:47:16 America/Bogota] PHP Notice:  Undefined offset: 4 in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Http/Routes.php on line 38
+[05-Aug-2019 16:47:16 America/Bogota] PHP Notice:  Undefined index: pages_archivos in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Session.php on line 20
+[05-Aug-2019 16:47:16 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/omegasol/public_html/proyectos/fedea_documentos/vendor/phpoffice/phpexcel/Classes/PHPExcel/Reader/Excel2007.php:85
+Stack trace:
+#0 /home/omegasol/public_html/proyectos/fedea_documentos/vendor/phpoffice/phpexcel/Classes/PHPExcel/IOFactory.php(269): PHPExcel_Reader_Excel2007->canRead('/home/omegasol/...')
+#1 /home/omegasol/public_html/proyectos/fedea_documentos/vendor/phpoffice/phpexcel/Classes/PHPExcel/IOFactory.php(191): PHPExcel_IOFactory::createReaderForFile('/home/omegasol/...')
+#2 /home/omegasol/public_html/proyectos/fedea_documentos/app/modules/page/Controllers/archivosController.php(239): PHPExcel_IOFactory::load('/home/omegasol/...')
+#3 /home/omegasol/public_html/proyectos/fedea_documentos/framework/App.php(30): Page_archivosController->cargaAction()
+#4 /home/omegasol/public_html/proyectos/fedea_documentos/framework/App.php(40): App->init()
+#5 /home/omegasol/public_html/proyectos/fedea_documentos/public/index.php(5): App->run()
+#6 {main}
+  thrown in /home/omegasol/public_html/proyectos/fedea_documentos/vendor/phpoffice/phpexcel/Classes/PHPExcel/Reader/Excel2007.php on line 85
+[05-Aug-2019 16:53:24 America/Bogota] PHP Notice:  Undefined offset: 4 in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Http/Routes.php on line 38
+[05-Aug-2019 16:53:24 America/Bogota] PHP Notice:  Undefined index: pages_archivos in /home/omegasol/public_html/proyectos/fedea_documentos/framework/Session.php on line 20
+[05-Aug-2019 16:53:24 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'ZipArchive' not found in /home/omegasol/public_html/proyectos/fedea_documentos/vendor/phpoffice/phpexcel/Classes/PHPExcel/Reader/Excel2007.php:85
+Stack trace:
+#0 /home/omegasol/public_html/proyectos/fedea_documentos/vendor/phpoffice/phpexcel/Classes/PHPExcel/IOFactory.php(269): PHPExcel_Reader_Excel2007->canRead('/home/omegasol/...')
+#1 /home/omegasol/public_html/proyectos/fedea_documentos/vendor/phpoffice/phpexcel/Classes/PHPExcel/IOFactory.php(191): PHPExcel_IOFactory::createReaderForFile('/home/omegasol/...')
+#2 /home/omegasol/public_html/proyectos/fedea_documentos/app/modules/page/Controllers/archivosController.php(239): PHPExcel_IOFactory::load('/home/omegasol/...')
+#3 /home/omegasol/public_html/proyectos/fedea_documentos/framework/App.php(30): Page_archivosController->cargaAction()
+#4 /home/omegasol/public_html/proyectos/fedea_documentos/framework/App.php(40): App->init()
+#5 /home/omegasol/public_html/proyectos/fedea_documentos/public/index.php(5): App->run()
+#6 {main}
+  thrown in /home/omegasol/public_html/proyectos/fedea_documentos/vendor/phpoffice/phpexcel/Classes/PHPExcel/Reader/Excel2007.php on line 85

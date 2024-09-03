@@ -1,0 +1,113 @@
+.cd-accordion {
+    background: var(--cd-color-1);
+    box-shadow: var(--shadow-lg);
+  }
+  
+  .cd-accordion--animated .cd-accordion__label::before {
+    transition: transform .3s;
+  }
+  
+  .cd-accordion__sub {
+    display: none; 
+    overflow: hidden;
+  }
+  
+  .cd-accordion__sub--is-visible {
+    display: block;
+  }
+  
+  .cd-accordion__item {
+    user-select: none;
+  }
+  
+  .cd-accordion__input { 
+    position: absolute;
+    opacity: 0;
+  }
+  
+  .cd-accordion__label {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: var(--space-sm) var(--space-md);
+    background: var(--cd-color-1);
+    --color-shadow: lightness(var(--cd-color-1), 1.2);
+    box-shadow: inset 0 -1px var(--color-shadow);
+    color: var(--color-white);
+  
+  }
+
+  .cd-accordion__label span {
+    order: 3;
+  }
+
+  .cd-accordion__label:hover {
+    background: lightness(var(--cd-color-1), 1.1);
+  }
+  
+  .cd-accordion__label::after, .cd-accordion__label--icon-page::before {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url('../img/cd-icons.svg');
+    background-repeat: no-repeat;
+    margin-right: var(--space-xxxs);
+  }
+  
+  .cd-accordion__label--icon-page::before {
+    order: 1;
+  }
+  
+  .cd-accordion__label::after {
+    order: 2;
+  }
+  
+    .cd-accordion__label--icon-page::before { 
+      background-position: 0 0;
+      transform: rotate(-90deg);
+    }
+  
+    .cd-accordion__label--icon-page::before::after { 
+      background-position: -16px 0;
+    }
+  
+  .cd-accordion__label--icon-img::after {
+    background-position: -48px 0;
+  }
+  
+  .cd-accordion__input:checked + .cd-accordion__label::before { 
+    transform: rotate(0);
+  }
+  
+  .cd-accordion__input:checked + .cd-accordion__label::after { 
+    background-position: -32px 0;
+  }
+  
+  .cd-accordion__input:checked ~ .cd-accordion__sub { 
+    display: block;
+  }
+  
+  .cd-accordion__sub--l1 .cd-accordion__label {
+    background: lightness(var(--cd-color-1), 0.65);
+    --color-shadow: lightness(var(--cd-color-1), 0.85);
+    box-shadow: inset 0 -1px var(--color-shadow);
+    padding-left: calc(var(--space-md) + 16px);
+    }
+    
+    .cd-accordion__sub--l1 .cd-accordion__label:hover {
+      background: lightness(var(--cd-color-1), 0.75);
+    }
+  
+  
+  .cd-accordion__item:last-child .cd-accordion__label {
+    box-shadow: none;
+  }
+  
+  .cd-accordion__sub--l2 .cd-accordion__label {
+    padding-left: calc(var(--space-md) + var(--space-xxxs) + 32px);
+  }
+  
+  .cd-accordion__sub--l3 .cd-accordion__label {
+    padding-left: calc(var(--space-md) + var(--space-xxxs) + 48px);
+  }
